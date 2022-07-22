@@ -1,0 +1,17 @@
+* {
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box; 
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+:root {
+  --color-White: hsl(0, 0%, 100%);
+  --color-Light-Gray: hsl(212, 45%, 89%);
+  --color-Grayish-Blue: hsl(220, 15%, 55%);
+  --color-Dark-Blue: hsl(218, 44%, 22%)
+}

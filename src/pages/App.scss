@@ -1,0 +1,51 @@
+.app {
+  background-color: var(--color-Light-Gray);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-card {
+    width: 20%;
+    height: 100%;
+    background: white;
+    padding: .8rem;
+    border-radius: 1rem;
+    text-align: center;
+
+    & img {
+      width: 100%;
+      border-radius: .5rem;
+    }
+
+    & p {
+      line-height: 1;
+      margin-bottom: 1.5rem;
+      padding: 0 .5rem;
+    }
+  }
+
+  & .title {
+    color: var(--color-Dark-Blue);
+  }
+
+  & .text {
+    color: var(--color-Grayish-Blue)
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  .app {
+    &-card {
+      width: 85%;
+      padding: 1rem;
+
+      & p {
+        margin-bottom: 1.8rem;
+      }
+
+    }
+    & .title { font-size: 1.5rem; padding: 0 1rem; }
+    & .text { font-size: 1.15rem; }
+  }
+}
