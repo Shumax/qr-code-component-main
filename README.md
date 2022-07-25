@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./public/images/screenshot.png)
+![](https://raw.githubusercontent.com/Shumax/qr-code-component-main/master/public/images/screenshot.PNG)
 
 ### Links
 
